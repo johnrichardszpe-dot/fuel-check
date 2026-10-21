@@ -394,7 +394,7 @@
   function viewAbout() {
     main.innerHTML = top(t('about'), '') + '<div class="card">' + t('aboutText') + '</div><div class="card"><h3>' + t('sources') + '</h3>' + t('sourcesText') + '</div>' +
       '<div class="card"><h3>' + t('authority') + '</h3>' + t('authorityLinks') + '</div><div class="card"><h3>' + t('howTo') + '</h3>' + t('howToText') + '</div>' +
-      '<p class="small center">' + t('version', { v: VERSION }) + ' · <a href="https://github.com/johnrichardszpe-dot/fuel-check">GitHub</a></p>';
+      (window.MoreTools ? MoreTools.html('fuel-check') : '') + '<p class="small center">' + t('version', { v: VERSION }) + ' · <a href="https://github.com/johnrichardszpe-dot/fuel-check">GitHub</a></p>';
   }
 
   // ---------- start ----------
