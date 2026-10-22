@@ -87,7 +87,7 @@ Check: the guide's own cover example (bark E, elevated M, near-surface L, surfac
 ## For developers
 Plain HTML/CSS/JS, no build step. `node test.js` checks all 25 + 75 table cells, every one of the 625 layer combinations for monotonicity, hints, loads and CSV. `browser-test.js` (puppeteer-core + Chrome) runs a full check, photo, result and an offline reload: `PUPPETEER=/path/to/puppeteer-core node browser-test.js http://localhost:8000/ shot.png`. When you change any file, bump `CACHE` in `sw.js`.
 
-Licence: not yet chosen (all rights reserved until a licence is added).
+Released under the MIT Licence (see LICENSE). Free for anyone, anywhere, to use, change and share. Copyright (c) 2026 John Richards.
 
 ## More free tools by John Richards
 - 🌲 [Tree Gauge](https://johnrichardszpe-dot.github.io/tree-gauge/) — forest basal area with the phone camera (angle-gauge method)
